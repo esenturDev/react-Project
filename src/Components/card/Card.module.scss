@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  .card {
+    p {
+      color: aliceblue;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}

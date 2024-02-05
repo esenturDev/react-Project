@@ -1,0 +1,41 @@
+.modalContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	label {
+		margin: 8px;
+	}
+	.div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 7px;
+	}
+}
+
+.layout {
+	margin: 0 auto;
+	box-sizing: border-box;
+	width: 1440px;
+	height: 100vh;
+	.renderCards {
+		display: flex;
+		justify-content: center;
+	}
+	.buttons {
+		display: flex;
+		justify-content: space-around;
+	}
+	.secelts {
+		display: flex;
+		justify-content: center;
+		margin: 40px;
+	}
+	.intiContents {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 15px;
+	}
+}

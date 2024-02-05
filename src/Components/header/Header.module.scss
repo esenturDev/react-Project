@@ -1,0 +1,37 @@
+.header {
+  padding-block: 30px;
+  padding-inline: 55px;
+  .container {
+    .disUl {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .card1 {
+        img {
+          width: 55px;
+          height: 55px;
+          border-radius: 15px;
+        }
+        h3 {
+          color: #fff;
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+      .card2 {
+        img {
+          width: 55px;
+          height: 55px;
+          border-radius: 15px;
+        }
+        h3 {
+          color: #fff;
+          font-size: 22px;
+          font-weight: 600;
+          position: relative;
+          right: 20PX;
+        }
+      }
+    }
+  }
+}
